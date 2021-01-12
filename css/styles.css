@@ -1,0 +1,106 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;    ;
+    --primary-white-color:#ffffff;
+    --background-section-color:#2F303A;
+  }
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.menu {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.menu-item {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.address {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    font-style: normal;
+}
+
+h2, h3 {
+    color: var(--title-text-color);
+}
+
+.logo {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    word-spacing: -1ch;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: var(--title-text-color);
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+    word-spacing: -1ch;
+}
+
+a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+
+button:hover,
+button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+footer {
+    background: var(--background-section-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-address {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.location {
+    color: var(--primary-white-color);
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.curent {
+    color: var(--accent-color);
+}

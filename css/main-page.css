@@ -1,0 +1,78 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;    ;
+    --primary-white-color:#ffffff;
+    --background-section-color:#2F303A;
+  }
+
+  body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+}
+
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.order-button:hover,
+.order-button:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}    
+.order-service {
+    background: var(--background-section-color);
+    color: var(--primary-white-color);
+}
+    
+.order-button {
+    color: var(--primary-white-color);
+    background: var(--accent-color);
+    font-family: inherit;
+}
+
+.precedence h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.precedence p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.what-we-do {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.our-team {
+    background: #F5F4FA;
+    ;
+}
+
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.our-team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.our-team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
