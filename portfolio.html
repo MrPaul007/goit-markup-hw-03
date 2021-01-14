@@ -4,12 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -48,12 +43,11 @@
         </ul>
       </div>  
     </header>
-    <main class="main">
-      <!--фільтр проектів-->
-      <div class="container">
-        <h1>наши проекты</h1>
-          <h2>фильтры проектов</h2>
-            <ul class="filters list">
+    <main>
+      <section  class="main">
+        <div class="container">
+          <!--фільтр проектів-->
+              <ul class="filters list">
           <li class="item">
             <button type="button" class="filter-btn">Все</button>
           </li>
@@ -73,122 +67,120 @@
           <li class="item">
             <button type="button" class="filter-btn">Маркетинг</button>
           </li>
+              </ul>
+          <!--Перелік проектів-->
+            <ul class="projects list">
+            <li class="item">
+            <a href=""  class="item">
+              <img
+                src="./images/project-technokryak.jpg"
+                alt="фото проекта "
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Технокряк</h3>
+              <p class="item-text">Веб-сайт</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-poster.jpg"
+                alt="фото постера"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Постер New Orlean vs Golden Star</h3>
+              <p class="item-text">Дизайн</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-restaurant.jpg"
+                alt="фото заставки приложения"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Ресторан Seafood</h3>
+              <p class="item-text">Приложение</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-prime.jpg"
+                alt="фото проекта"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Проект Prime</h3>
+              <p class="item-text">Маркетинг</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-boxes.jpg"
+                alt="фото проекта"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Проект Boxes</h3>
+              <p class="item-text">Приложение</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-inspiration.jpg"
+                alt="фото проекта"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Inspiration has no Borders</h3>
+              <p class="item-text">Веб-сайт</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-limited-edition.jpg"
+                alt="фото проекта"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Издание Limited Edition</h3>
+              <p class="item-text">Дизайн</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-lab.jpg"
+                alt="фото проекта"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Проект LAB</h3>
+              <p class="item-text">Маркетинг</p>
+            </a>
+            </li>
+            <li class="item">
+            <a href="" class="item">
+              <img
+                src="./images/project-growing-business.jpg"
+                alt="фото проекта"
+                width="370"
+                height="294"
+              />
+              <h3 class="item-title">Growing Business</h3>
+              <p class="item-text">Приложение</p>
+            </a>
+            </li>
             </ul>
-      </div>
-      <!--Перелік проектів-->
-     <div class="container">
-      <h2>перечень проектов</h2>
-        <ul class="projects list">
-          <li class="item">
-          <a href=""  class="item">
-            <img
-              src="./images/project-technokryak.jpg"
-              alt="фото проекта "
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Технокряк</h3>
-            <p class="item-text">Веб-сайт</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-poster.jpg"
-              alt="фото постера"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Постер New Orlean vs Golden Star</h3>
-            <p class="item-text">Дизайн</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-restaurant.jpg"
-              alt="фото заставки приложения"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Ресторан Seafood</h3>
-            <p class="item-text">Приложение</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-prime.jpg"
-              alt="фото проекта"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Проект Prime</h3>
-            <p class="item-text">Маркетинг</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-boxes.jpg"
-              alt="фото проекта"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Проект Boxes</h3>
-            <p class="item-text">Приложение</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-inspiration.jpg"
-              alt="фото проекта"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Inspiration has no Borders</h3>
-            <p class="item-text">Веб-сайт</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-limited-edition.jpg"
-              alt="фото проекта"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Издание Limited Edition</h3>
-            <p class="item-text">Дизайн</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-lab.jpg"
-              alt="фото проекта"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Проект LAB</h3>
-            <p class="item-text">Маркетинг</p>
-          </a>
-          </li>
-          <li class="item">
-          <a href="" class="item">
-            <img
-              src="./images/project-growing-business.jpg"
-              alt="фото проекта"
-              width="370"
-              height="294"
-            />
-            <h3 class="item-title">Growing Business</h3>
-            <p class="item-text">Приложение</p>
-          </a>
-          </li>
-          </ul>
-     </div>
+        </div>
+      </section>
     </main>
     <!--футер-->
     <footer>
