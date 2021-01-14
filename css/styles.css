@@ -5,28 +5,76 @@
     --primary-white-color:#ffffff;
     --background-section-color:#2F303A;
   }
+
+
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: roboto, sans-serif;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    align-items: center;
 }
 
 .menu {
     color: var(--title-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-decoration: none;
+    align-items: center;
+    display: flex;
 }
 
-.menu-item {
+.menu .item {
+    margin-right: 50px;
+}
+
+.menu .item:last-child {
+    margin-right: 0;
+}
+
+.link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--title-text-color);
     text-decoration: none;
 }
+
+.nav {
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .address {
+    display: flex;
+}
+.address .item {
+    margin-right: 50px;
+}
+
+.address .item:last-child {
+    margin-right: 0;
+}
+
+.address a {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -39,13 +87,16 @@ h2, h3 {
     color: var(--title-text-color);
 }
 
-.logo {
+.logo-header {
     font-family: raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    margin-top: 22px;
+    margin-right: 93px;
     text-decoration: none;
     word-spacing: -1ch;
+    
 }
 
 .logo-web {
@@ -56,7 +107,7 @@ h2, h3 {
     color: var(--title-text-color);
 }
 
-.logo-footer {
+.studio-footer {
     color: var(--primary-white-color);
     word-spacing: -1ch;
 }
@@ -77,6 +128,9 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
 }
 
 .footer-address {
@@ -88,18 +142,33 @@ footer {
 .location {
     color: var(--primary-white-color);
     font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
 
-h1 {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
+.mail {
+    margin-bottom: 9px;
+}
+
+.tel {
+    margin-bottom: 9px;
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
+
+.logo-footer {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    word-spacing: -1ch;
+}
+
 
 .curent {
     color: var(--accent-color);

@@ -12,50 +12,115 @@
     font-family: roboto, sans-serif;
 }
 
-.order-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    margin-top: 0;
+    margin-bottom: 30;
 }
 
-.order-button:hover,
-.order-button:focus {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
-}    
-.order-service {
-    background: var(--background-section-color);
-    color: var(--primary-white-color);
-}
-    
-.order-button {
+.hero-button {
     color: var(--primary-white-color);
     background: var(--accent-color);
     font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    margin-bottom: 200px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}   
+
+.hero {
+    background: var(--background-section-color);
+    color: var(--primary-white-color);
+    text-align: center;
+}
+
+.hero .container {
+    padding-top: 200px;
+}
+
+.precedence-list {
+    display: flex;
+    justify-content: center;
+}
+
+.precedence .item {
+    margin-right: 30px;
+    width: 270px;
+}
+
+.precedence h2 {
+    color: var(--primary-white-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 94px;
 }
 
 .precedence h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .precedence p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.what-we-do {
+.work-examples {
+    display: flex;
+    justify-content: center;
+}
+
+.work-examples .item {
+    margin-right: 30px;
+}
+
+.work-examples .item:last-child {
+    margin-right: 0;
+}
+
+.works .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.works h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-list .item {
+    margin-right: 30px;
+}
+
+.team-list .item:last-child {
+    margin-right: 0;
 }
 
 .our-team {
-    background: #F5F4FA;
-    ;
+    background-color: #F5F4FA;    
 }
 
 .our-team h2 {
@@ -63,16 +128,34 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.our-team .item {
+    background-color: var(--primary-white-color);
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.our-team .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
 }
 
 .our-team h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .our-team p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0;
 }
